@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Password Generator</h1>
+        <div class="header">
+            <input disabled type="text" id="pwd">
+            <button class="copy" id="copy">
+                <i class="fas fa-copy"></i>
+            </button>
+        </div>
+        <div class="body">
+            <small id="pwdcopy" style="font-weight: bolder; color: darkgreen; margin-top: 15px; margin-left: 50px;">password copied to clipboard 👍 </small>
+            <div class="form-control">
+                <label style="color: darkred; font-weight: bold;" for="plength">Password Length</label>
+                <input type="number" id="plength" value="8" min="1" max="30">
+            </div>
+            <small style="font-size: 11px; color: gray; font-weight: 700;">Strong Multifactor Authentication (MFA) password should have all these constraints with 8 - 25 characters length</small>
+            <div class="form-control" style="margin-top: 25px;">
+                <label id="uppertxt" for="puppercase" style="color: darkgreen; font-weight: bolder; font-size: 19px;"> Uppercase</label>
+                <input type="checkbox" id="puppercase" checked>
+            </div><hr>
+            <div class="form-control">
+                <label id="lowertxt" for="plowercase"> Lowercase</label>
+                <input type="checkbox" id="plowercase">
+            </div><hr>
+            <div class="form-control">
+                <label id="numtxt" for="pnumber"> Number</label>
+                <input type="checkbox" id="pnumber">
+            </div><hr>
+            <div class="form-control">
+                <label id="spltxt" for="psymbol">Special Character</label>
+                <input type="checkbox" id="psymbol">
+            </div>
+            <button id="submit"> <span>Generate </span> </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
