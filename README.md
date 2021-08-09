@@ -11,7 +11,7 @@
 ## 🔭 Features :
 
 1) Random Password Generation
-2) Easy navigation to previous and next steps
+2) Generate Customized Passwords of your own
 3) Attractive UI design
 
 # TECHNOLOGIES USED 📌
