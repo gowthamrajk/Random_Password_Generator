@@ -34,6 +34,7 @@
 # UI SneakPeak ❤️ 
 
 ![image](https://user-images.githubusercontent.com/43011442/128731980-6bc67313-9b55-47e3-aa98-ffbbbf02966b.png)
+![image](https://user-images.githubusercontent.com/43011442/128732074-fdbbaa25-c222-473e-9d3a-dfd0b659ce70.png)
 
 
 <br><br>
