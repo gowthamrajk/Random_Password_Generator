@@ -12,7 +12,7 @@
 
 1) Random Password Generation
 2) Generate Customized Passwords of your own
-3) Set various password constraints as
+3) Set various password constraints as uppercase
 4) Attractive UI design
 
 # TECHNOLOGIES USED 📌
