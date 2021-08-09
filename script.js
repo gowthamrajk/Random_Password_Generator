@@ -26,7 +26,9 @@ $("#pwdcopy").hide();
 
 $("#puppercase").click(function(){
     if($(this).prop("checked") == true){
-        $("#uppertxt").css("color", "darkgreen").css("font-weight", "bolder").css("font-size", "19px");
+        $("#uppertxt").css("color", "darkgreen");
+        $("#uppertxt").css("font-weight", "bolder");
+        $("#uppertxt").css("font-size", "19px");
     }
     else if($(this).prop("checked") == false){
         $("#uppertxt").css("color", "black").css("font-weight", "500").css("font-size", "16px");
