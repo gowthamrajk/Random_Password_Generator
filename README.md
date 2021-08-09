@@ -11,3 +11,4 @@
 ## 🔭 Features :
 
 1) Multi-step based user registration
+2) Easy navigation to previous and next steps
