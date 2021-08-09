@@ -10,7 +10,7 @@
 
 ## 🔭 Features :
 
-1) Random Password Generation
+1) Random 
 2) Easy navigation to previous and next steps
 3) Attractive UI design
 
