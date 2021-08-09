@@ -9,3 +9,5 @@
 **🌐 Demo : https://gowthamrajk.github.io/Random_Password_Generator/**
 
 ## 🔭 Features :
+
+1) Multi-step based user registration
